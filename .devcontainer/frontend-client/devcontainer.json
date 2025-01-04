@@ -1,0 +1,28 @@
+{
+  "name": "frontend-client",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "frontend-client",
+  "workspaceFolder": "/frontend-client",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[vue][typescript][javascript][json][css]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      },
+
+      "extensions": [
+        "donjayamanne.git-extension-pack",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "Vue.volar",
+        "vuetifyjs.vuetify-vscode",
+        "figma.figma-vscode-extension",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+  // "postCreateCommand": "npm install"
+}
